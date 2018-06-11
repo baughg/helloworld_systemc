@@ -11,6 +11,9 @@ SC_MODULE(stim)
     B.write(false);
     wait();
     A.write(false);
+    B.write(false);
+    wait();
+    A.write(false);
     B.write(true);
     wait();
     A.write(true);

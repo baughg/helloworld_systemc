@@ -27,5 +27,6 @@ SC_MODULE(exor2)
     n4.A(S2);
     n4.B(S3);
     n4.F(F);
+    cout << "Constructing exor2 " << name() << endl;
   }
 };
