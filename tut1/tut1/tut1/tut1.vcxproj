@@ -100,7 +100,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Movidius\library\systemc-2.3.2\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SYSTEMC_HOME)\src</AdditionalIncludeDirectories>
       <UndefinePreprocessorDefinitions>
       </UndefinePreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -109,7 +109,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Movidius\library\systemc-2.3.2\msvc10\SystemC\x64\Debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SYSTEMC_HOME)\msvc10\SystemC\x64\Debug</AdditionalLibraryDirectories>
       <AdditionalDependencies>SystemC-2.3.2.lib;SystemC.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
