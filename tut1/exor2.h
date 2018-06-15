@@ -1,4 +1,4 @@
-#include "systemc.h"
+#include <systemc.h>
 #include "nand2.h"
 
 SC_MODULE(exor2)

@@ -1,4 +1,4 @@
-#include "systemc.h"
+#include <systemc.h>
 
 SC_MODULE(nand2)          // declare nand2 sc_module
 {

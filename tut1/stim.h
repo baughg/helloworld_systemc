@@ -1,4 +1,4 @@
-#include "systemc.h"
+#include <systemc.h>
 
 SC_MODULE(stim)
 {
